@@ -1,0 +1,174 @@
+/* RESET CSS */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f0ebf8;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #333;
+  text-align: center;
+}
+
+p, label{
+  color:#444;
+  
+}
+
+label{
+  font-weight: bold;
+  padding-bottom: 14px;
+}
+
+input {
+  border : 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+input[type=text],
+input[type=number],
+input[type=date],
+input[type=file]{
+  width:400px;
+  padding: 14px;
+}
+
+textarea{
+  padding: 10px 5px;
+  width:400px;
+}
+
+/* HEADER */
+
+.header{
+  height: 160px;
+  padding: 20px;
+  background-color:#673AB7;
+}
+
+.header h3{
+  color:#fff;
+  font-size: 35px;
+}
+
+/* form header */
+.form-header{
+  border-bottom: 1px solid #dfdfdf;
+  height: 45px;
+
+}
+.form-header p{
+  color:#673AB7;
+  border-bottom: 4px solid #673AB7;
+  width:100px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  text-transform: uppercase;
+  height: 45px;
+  line-height:45px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* container do formulário */
+.form-container{
+  background-color: #fff;
+  width:60%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top:-62px;
+}
+/* Body */
+
+.form-body{
+  padding: 30px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title{
+  margin: 0;
+}
+
+.required-field{
+  color:#d80705;
+}
+
+.box-input{
+  margin-bottom: 30px;
+}
+
+.block{
+  display: block;
+}
+
+.optional_box{
+  display: inline-block;
+  margin-right:30px;
+}
+
+.optional_list{
+  padding-left:0;
+}
+
+.optional_list li{
+  list-style:none;
+}
+
+.btn-submit{
+  color: #673AB7;
+  border: 4px solid #673AB7;
+  width:150px;
+  height: 50px;
+  text-transform:uppercase;
+  cursor: pointer;
+  transition:.5s;
+  font-weight: bold;
+  font-size:18px;
+}
+
+.btn-submit:hover{
+  background-color: #673AB7;
+  border: 4px solid #673AB7;
+  color:white;
+}
+
+::-webkit-scrollbar{
+width:15px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-image: radial-gradient(#2e1062,#673Ab7);
+}
+
+::-webkit-scrollbar-track{
+  background-color: #916ecf;
+}
+
+@media (max-width:650px) {
+  input[type=text],
+input[type=number],
+input[type=date],
+input[type=file]{
+  width:400px;
+  padding: 14px;
+}
+.form-container{
+  width:100%;
+}
+
+.header{
+  height: 260px;
+}
+
+}
